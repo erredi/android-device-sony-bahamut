@@ -40,7 +40,8 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_PACKAGES += \
     SonyBahamutFrameworksRes \
-    SonyBahamutSystemUIRes
+    SonyBahamutSystemUIRes \
+    mulch-webview
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
